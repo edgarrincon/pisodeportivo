@@ -2,9 +2,7 @@ import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
 
- 
 // simplest form (only email)
-
 
 const Footer = ({ state }) => {
   // const options = state.source.get("acf-options-page");
@@ -14,39 +12,120 @@ const Footer = ({ state }) => {
         <div className="row">
           <div className="col-12 col-lg-6 footer-widget widget-one">
             <h6 className="widget-title">About the company</h6>
-            <p>Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Egestas quis ipsum suspendisse ultrices gravida. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Egestas quis ipsum suspendisse ultrices gravida.</p> 
+            <p>
+              Mi in nulla posuere sollicitudin aliquam ultrices sagittis.
+              Egestas quis ipsum suspendisse ultrices gravida. Sed adipiscing
+              diam donec adipiscing tristique risus nec feugiat in. Mi in nulla
+              posuere sollicitudin aliquam ultrices sagittis. Egestas quis ipsum
+              suspendisse ultrices gravida.
+            </p>
           </div>
           <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
             <h6 className="widget-title">Company</h6>
             <ul className="widget-list">
-              <li><Link className="widget-list-link" link="/about/">About us</Link></li>
-              <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-              <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
-              <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-              <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
+              <li>
+                <Link className="widget-list-link" link="/about/">
+                  About us
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/services/">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/jobs/">
+                  Career
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/blog/">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/contact/">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
             <h6 className="widget-title">Company</h6>
             <ul className="widget-list">
-              <li><Link className="widget-list-link" link="/about/">About us</Link></li>
-              <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-              <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
-              <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-              <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
+              <li>
+                <Link className="widget-list-link" link="/about/">
+                  About us
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/services/">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/jobs/">
+                  Career
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/blog/">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link className="widget-list-link" link="/contact/">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
             <h6 className="widget-title">Connect</h6>
             <ul className="widget-list">
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/awsminnovations">Facebook</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/awsmin">Twitter</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/awsmin/">Instagram</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://github.com/awsmin">Github</Link></li>
+              <li>
+                <Link
+                  className="widget-list-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://www.facebook.com/awsminnovations"
+                >
+                  Facebook
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="widget-list-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://twitter.com/awsmin"
+                >
+                  Twitter
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="widget-list-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://www.instagram.com/awsmin/"
+                >
+                  Instagram
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="widget-list-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://github.com/awsmin"
+                >
+                  Github
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
-        
       </Container>
     </>
   );
@@ -56,7 +135,7 @@ const Footer = ({ state }) => {
 export default connect(Footer);
 
 const Container = styled.footer`   
-  max-width:1200px;
+  max-width: 1360px;
   margin: 0 auto;
   padding-top:4rem;
   padding-bottom:4rem;

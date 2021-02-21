@@ -9,7 +9,7 @@ const Header = ({ state }) => {
     <>
       <BrandContainer>
         <StyledLink link="/">
-          <Img></Img>
+          <Image />
           <Title>
             <span>PISO DEPORTIVO</span>
           </Title>
@@ -26,7 +26,7 @@ export default connect(Header);
 
 const BrandContainer = styled.div`
   box-sizing: border-box;
-  color: var(--brand);
+  color: var(--black);
   width: 100%;
 
   @media (min-width: 768px) {
@@ -34,15 +34,14 @@ const BrandContainer = styled.div`
     width: auto;
   }
 `;
-
-const Img = styled.div`
-  margin: 0;
-  width: 50px;
-  height: 50px;
-  background-image: url("../imagenes/Logo-de-Piso-Deportivo-con-el-fondo-transparente.png");
+const Image = styled.div`
+  background-image: url("https://github.com/edgarrincon/pisodeportivo/blob/main/packages/f1/src/components/imagenes/logo.png?raw=true");
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
 `;
-
 const Title = styled.div`
   margin: 0;
   font-size: 20px;
@@ -54,9 +53,10 @@ const Title = styled.div`
 const StyledLink = styled(Link)`
   text-decoration: none;
   display: flex;
-  color: var(--brand);
+  align-items: center;
+  color: var(--black);
   transition: all 0.3s ease;
   &:hover {
-    color: var(--black);
+    color: var(--white);
   }
 `;

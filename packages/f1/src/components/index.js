@@ -68,7 +68,7 @@ export default connect(Theme);
 
 const globalStyles = css`
   :root {
-    --brand: #5b3be8;
+    --brand: #bf1e2e;
     --black: #000000;
     --white: #ffffff;
     --bodycolor: #343434;
@@ -132,10 +132,12 @@ const HeadContainer = styled.div`
   max-width: 1360px;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 2.75rem;
+  padding-top: 1.5rem;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 2.75rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--brand);
+  color: var(--black);
 `;
 const FooterContainer = styled.div`
   width: 100%;

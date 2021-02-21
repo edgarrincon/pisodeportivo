@@ -34,6 +34,7 @@ const NavContainer = styled.nav`
   padding: 0 24px;
   margin: 0;
   overflow-x: auto;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -43,7 +44,7 @@ const NavContainer = styled.nav`
 const NavItem = styled.div`
   padding: 0;
   margin: 0 16px;
-  color: var(--brand);
+  color: var(--black);
   font-size: 0.9em;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -51,14 +52,14 @@ const NavItem = styled.div`
   & > a {
     display: inline-block;
     line-height: 2em;
-    color:var(--black);
+    color: var(--white);
     transition: all 0.3s ease;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
-      color:var(--brand);
+      color: var(--black);
     }
     &:hover {
-      color:var(--brand);
+      color: var(--white);
     }
   }
 
