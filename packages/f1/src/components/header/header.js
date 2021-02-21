@@ -39,11 +39,12 @@ const Image = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 75px;
-  height: 75px;
+  width: 43px;
+  height: 40px;
 `;
 const Title = styled.div`
   margin: 0;
+  margin-left: 10px;
   font-size: 20px;
   span {
     font-weight: 800;

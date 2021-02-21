@@ -14,11 +14,11 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Nature", "/piso1/"],
-            ["Travel", "/piso4/"],
-            ["Japan", "/piso2/"],
-            ["About Us", "/piso3/"],
-            ["About", "/piso5/"],
+            ["Entrevistas", "/piso1/"],
+            ["Opiniones", "/piso4/"],
+            ["Futbol", "/piso2/"],
+            ["Basket", "/piso3/"],
+            ["Beisbol", "/piso5/"],
           ],
           featured: {
             showOnList: false,
