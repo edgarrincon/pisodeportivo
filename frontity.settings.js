@@ -14,15 +14,13 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Entrevistas", "/piso1/"],
-            ["Opiniones", "/piso4/"],
-            ["Futbol", "/piso2/"],
-            ["Basket", "/piso3/"],
-            ["Beisbol", "/piso5/"],
+            ["Entrevistas", "/entradas/"],
+            ["Beis", "/category/opinion/"],
+            ["Vol", "/category/entrevistas/"],
           ],
           featured: {
-            showOnList: false,
-            showOnPost: false,
+            showOnList: true,
+            showOnPost: true,
           },
         },
       },
