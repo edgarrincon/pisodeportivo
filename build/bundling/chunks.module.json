@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "e2acf5f1cd0b123d2936",
+  "publicPath": "/static/",
+  "outputPath": "D:\\Desktop\\pisodeportivo\\build\\static",
+  "assetsByChunkName": {
+    "Piso Deportivo": "Piso Deportivo.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "Piso Deportivo.module.js",
+      "size": 7049384,
+      "chunks": [
+        "Piso Deportivo"
+      ],
+      "chunkNames": [
+        "Piso Deportivo"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 116645,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "Piso Deportivo": {
+      "chunks": [
+        "Piso Deportivo"
+      ],
+      "assets": [
+        "Piso Deportivo.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "Piso Deportivo": {
+      "chunks": [
+        "Piso Deportivo"
+      ],
+      "assets": [
+        "Piso Deportivo.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "Piso Deportivo",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1977491,
+      "names": [
+        "Piso Deportivo"
+      ],
+      "files": [
+        "Piso Deportivo.module.js"
+      ],
+      "hash": "3f203594c024dc441b5d",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 87300,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "eb950d37b130ed09955c",
+      "siblings": [],
+      "parents": [
+        "Piso Deportivo"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
