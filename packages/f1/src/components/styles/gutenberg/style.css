@@ -235,7 +235,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
 }
 .wp-block-cover-image.has-parallax,
 .wp-block-cover.has-parallax {
@@ -2153,11 +2152,11 @@ p.wp-block-subhead {
   margin-bottom: 1em;
 }
 
-:root .editor-styles-wrapper,
+/*:root .editor-styles-wrapper,
 :root {
   /* stylelint-disable function-comma-space-after */
-  /* stylelint-enable function-comma-space-after */
-}
+/* stylelint-enable function-comma-space-after 
+}*/
 :root .editor-styles-wrapper .has-pale-pink-background-color,
 :root .has-pale-pink-background-color {
   background-color: #f78da7;
