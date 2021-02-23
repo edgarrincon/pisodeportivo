@@ -134,45 +134,37 @@ const Footer = ({ state }) => {
 // Connect the Header component to get access to the `state` in it's `props`
 export default connect(Footer);
 
-const Container = styled.footer`   
+const Container = styled.footer`
   max-width: 1360px;
   margin: 0 auto;
-  padding-top:4rem;
-  padding-bottom:4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   padding-right: 15px;
   padding-left: 15px;
-  color:var(--white);
+  color: var(--white);
   .footer-widget {
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
     .widget-title {
-      color:var(--white);
-      margin-bottom:1.2rem;
+      color: var(--white);
+      margin-bottom: 1.2rem;
     }
     p {
-      font-size:1rem;
+      font-size: 1rem;
     }
     .widget-list {
-      list-style:none;
-      padding-left:0;
+      list-style: none;
+      padding-left: 0;
       li {
-        margin-bottom:0.5rem;
+        margin-bottom: 0.5rem;
         .widget-list-link {
-          text-decoration:none;
+          text-decoration: none;
           transition: all 0.3s ease;
-          color:var(--white);
+          color: var(--white);
           &:hover {
-            color:var(--black);
+            color: var(--black);
           }
         }
       }
     }
   }
-  .widget-one {
-    p {
-      @media (min-width: 992px) {
-        padding-right:8rem;
-      }
-    }
-  }
-}
 `;

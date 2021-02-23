@@ -14,9 +14,9 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Entrevistas", "/entradas/"],
-            ["Beis", "/category/opinion/"],
-            ["Vol", "/category/entrevistas/"],
+            ["Entrevistas", "/category/entrevistas/"],
+            ["Opinones", "/category/opinion/"],
+            ["Servicios", "/"],
           ],
           featured: {
             showOnList: true,

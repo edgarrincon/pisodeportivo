@@ -25,9 +25,11 @@ const Page = ({ state, actions, libraries }) => {
   // Load the post, but only if the data is ready.
   return data.isReady ? (
     <ArticleContainer>
-      {/*<div className="post-title">
-        <Title dangerouslySetInnerHTML={{ __html: page.title.rendered }} />
-      </div>*/}
+      {
+        <div className="post-title">
+          <Title dangerouslySetInnerHTML={{ __html: page.title.rendered }} />
+        </div>
+      }
 
       {/* Render the content using the Html2React component so the HTML is processed
        by the processors we included in the libraries.html2react.processors array. */}

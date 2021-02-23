@@ -71,7 +71,7 @@ const globalStyles = css`
     --brand: #bf1e2e;
     --black: #000000;
     --white: #ffffff;
-    --bodycolor: #343434;
+    --bodycolor: #ffffff;
   }
   body {
     margin: 0;
@@ -86,7 +86,9 @@ const globalStyles = css`
   html {
     height: -webkit-fill-available;
   }
-
+  a {
+    color: red;
+  }
   a,
   a:visited {
     text-decoration: none;
@@ -112,7 +114,7 @@ const globalStyles = css`
   //   height: auto;
   // }
   .container {
-    max-width: 1200px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
     position: relative;

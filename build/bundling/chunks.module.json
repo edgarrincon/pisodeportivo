@@ -2,20 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "7170885747269dfa5dc3",
+  "hash": "7b9e7e23fe9180860c07",
   "publicPath": "/static/",
   "outputPath": "D:\\Desktop\\pisodeportivo\\build\\static",
   "assetsByChunkName": {
     "Piso Deportivo": [
       "Piso Deportivo.module.js",
-      "Piso Deportivo.fe9148a13a3bed3b4010.hot-update.js"
+      "Piso Deportivo.df7e05d62afd78ebde79.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "Piso Deportivo.fe9148a13a3bed3b4010.hot-update.js",
-      "size": 56461,
+      "name": "Piso Deportivo.df7e05d62afd78ebde79.hot-update.js",
+      "size": 35170,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "name": "Piso Deportivo.module.js",
-      "size": 7049560,
+      "size": 7050099,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -41,7 +41,7 @@
       "emitted": false
     },
     {
-      "name": "fe9148a13a3bed3b4010.hot-update.json",
+      "name": "df7e05d62afd78ebde79.hot-update.json",
       "size": 56,
       "chunks": [],
       "chunkNames": [],
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.fe9148a13a3bed3b4010.hot-update.js"
+        "Piso Deportivo.df7e05d62afd78ebde79.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.fe9148a13a3bed3b4010.hot-update.js"
+        "Piso Deportivo.df7e05d62afd78ebde79.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -107,15 +107,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1977656,
+      "size": 1977944,
       "names": [
         "Piso Deportivo"
       ],
       "files": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.fe9148a13a3bed3b4010.hot-update.js"
+        "Piso Deportivo.df7e05d62afd78ebde79.hot-update.js"
       ],
-      "hash": "feb98fd5fde13ea763a4",
+      "hash": "64c892e6150d7c6ab0a3",
       "siblings": [],
       "parents": [],
       "children": [
