@@ -81,6 +81,7 @@ const globalStyles = css`
     font-feature-settings: "kern";
     -webkit-font-smoothing: antialiased;
     min-height: -webkit-fill-available;
+    background-color: var(--black);
   }
   html {
     height: -webkit-fill-available;
@@ -129,7 +130,6 @@ const globalStyles = css`
 const HeadContainer = styled.div`
   display: flex;
   width: 100%;
-  max-width: 1360px;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 1.5rem;

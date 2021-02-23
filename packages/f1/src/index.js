@@ -23,7 +23,7 @@ const awsminF1 = {
       featured: {
         showOnList: false,
         showOnPost: false,
-      }
+      },
     },
   },
   /**
