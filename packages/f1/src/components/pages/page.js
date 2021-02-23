@@ -25,7 +25,7 @@ const Page = ({ state, actions, libraries }) => {
   // Load the post, but only if the data is ready.
   return data.isReady ? (
     <ArticleContainer>
-      {
+      {/*{
         <div className="post-title">
           <Title dangerouslySetInnerHTML={{ __html: page.title.rendered }} />
         </div>

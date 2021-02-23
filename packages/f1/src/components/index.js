@@ -87,7 +87,7 @@ const globalStyles = css`
     height: -webkit-fill-available;
   }
   a {
-    color: red;
+    color: var(--brand);
   }
   a,
   a:visited {
@@ -102,7 +102,7 @@ const globalStyles = css`
   h4,
   h5,
   h6 {
-    color: var(--black);
+    color: var(--white);
   }
   p {
     line-height: 24px;

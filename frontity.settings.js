@@ -14,9 +14,10 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
+            ["Home2", "/home2"],
             ["Entrevistas", "/category/entrevistas/"],
             ["Opinones", "/category/opinion/"],
-            ["Servicios", "/"],
+            ["Servicios", "/entradas"],
           ],
           featured: {
             showOnList: true,
@@ -30,7 +31,7 @@ const settings = {
       state: {
         source: {
           url: "https://pisodeportivo.tk",
-          homepage: "/home",
+          /* homepage: "/home",*/
         },
       },
     },
