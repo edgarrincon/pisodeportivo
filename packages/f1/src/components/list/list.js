@@ -81,18 +81,12 @@ const Header = styled.h1`
   width: 100%;
   height: 50vh;
   background-image: url("https://raw.githubusercontent.com/edgarrincon/pisodeportivo/main/packages/f1/src/components/imagenes/cr7.jpeg");
-
   min-height: 700px;
-
-  /* Set background image to fixed (don't scroll along with the page) */
   background-attachment: fixed;
-
-  /* Center the background image */
   background-position: center;
-
-  /* Set the background image to no repeat */
   background-repeat: no-repeat;
-
-  /* Scale the background image to be as large as possible */
   background-size: cover;
+  @media (max-width: 992px) {
+    font-size: 2.5rem;
+  }
 `;

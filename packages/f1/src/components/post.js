@@ -66,13 +66,13 @@ const Post = ({ state, actions, libraries }) => {
 export default connect(Post);
 
 const ArticleContainer = styled.div`
-  width:100%;
-  max-width:1035px;
+  width: 100%;
+  max-width: 1360px;
   margin: 0 auto;
   padding-right: 15px;
-  padding-left: 15px; 
+  padding-left: 15px;
   .post-title {
-    text-align:center;    
+    text-align: center;
   }
 `;
 
@@ -105,11 +105,11 @@ const Content = styled.div`
   * {
     max-width: 771px;
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
   p {
-    margin-bottom:1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   img {
@@ -182,7 +182,7 @@ const Content = styled.div`
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color:var(--white);
+    background-color: var(--white);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 4px;
@@ -212,7 +212,7 @@ const Content = styled.div`
     line-height: 1.42857143;
     border-radius: 4px;
     color: var(--white);
-    background-color:var(--brand);
+    background-color: var(--brand);
   }
 
   /* WordPress Core Align Classes */
