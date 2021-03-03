@@ -120,6 +120,8 @@ const Article = styled.article`
   margin: 0 auto;
   position: relative;
   margin-bottom: 3.5rem;
+  padding-left:15px;
+  padding-right: 15px;
   .bio-info {
     margin-bottom: 1rem;
     img {

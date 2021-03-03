@@ -67,8 +67,6 @@ export default connect(List);
 const Container = styled.section`
   width: 1360px;
   margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
   list-style: none;
 `;
 
