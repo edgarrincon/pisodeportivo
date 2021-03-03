@@ -71,20 +71,16 @@ const Container = styled.section`
 `;
 
 const Header = styled.h1`
-  display: flex;
   font-size: 7.5rem;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 3rem;
   width: 100%;
-  height: 50vh;
   background-image: url("https://raw.githubusercontent.com/edgarrincon/pisodeportivo/main/packages/f1/src/components/imagenes/cr7.jpeg");
-  min-height: 700px;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 992px) {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 `;
