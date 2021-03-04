@@ -118,9 +118,7 @@ const globalStyles = css`
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+}
   .section {
     padding: 34px 0;
     @media (min-width: 992px) {
