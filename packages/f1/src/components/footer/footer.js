@@ -139,8 +139,6 @@ const Container = styled.footer`
   margin: 0 auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-right: 15px;
-  padding-left: 15px;
   color: var(--white);
   .footer-widget {
     margin-bottom: 1rem;
