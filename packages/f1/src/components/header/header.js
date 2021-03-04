@@ -41,6 +41,7 @@ const Image = styled.div`
   background-repeat: no-repeat;
   width: 43px;
   height: 40px;
+  margin: 0 0 0 15px;
 `;
 const Title = styled.div`
   margin: 0;
