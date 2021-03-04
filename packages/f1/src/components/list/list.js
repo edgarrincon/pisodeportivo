@@ -70,17 +70,3 @@ const Container = styled.section`
   list-style: none;
 `;
 
-const Header = styled.h1`
-  font-size: 7.5rem;
-  margin-bottom: 3rem;
-  width: 100%;
-  background-image: url("https://raw.githubusercontent.com/edgarrincon/pisodeportivo/main/packages/f1/src/components/imagenes/cr7.jpeg");
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  @media (max-width: 992px) {
-    font-size: 3.5rem;
-  }
-`;

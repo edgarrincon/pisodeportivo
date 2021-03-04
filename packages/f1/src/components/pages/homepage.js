@@ -43,8 +43,6 @@ const Content = styled.div`
   .wp-block-group__inner-container {
     width: 100%;
     max-width: 1360px;
-    padding-right: 15px;
-    padding-left: 15px;
     margin: 0px auto;
   }
   .hero-homepage {
