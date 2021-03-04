@@ -31,7 +31,7 @@ const settings = {
       state: {
         source: {
           url: "https://pisodeportivo.tk",
-          /* homepage: "/home",*/
+          homepage: "/home",
         },
       },
     },
