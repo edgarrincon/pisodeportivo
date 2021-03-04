@@ -57,9 +57,6 @@ const Theme = ({ state }) => {
           <PageError when={data.isError} />
         </Switch>
       </Main>
-      <FooterContainer>
-        <Footer />
-      </FooterContainer>
     </>
   );
 };
@@ -118,7 +115,7 @@ const globalStyles = css`
     width: 100%;
     margin: 0 auto;
     position: relative;
-}
+  }
   .section {
     padding: 34px 0;
     @media (min-width: 992px) {
