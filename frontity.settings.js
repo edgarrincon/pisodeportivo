@@ -14,9 +14,9 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Home2", "/home2"],
-            ["Entrevistas", "/category/entrevistas/"],
-            ["Opinones", "/category/opinion/"],
+            ["albums", "/albums"],
+            ["concerts", "/concerts"],
+            ["contact", "/contact"],
             ["Servicios", "/entradas"],
           ],
           featured: {
