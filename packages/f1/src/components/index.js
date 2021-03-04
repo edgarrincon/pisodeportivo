@@ -133,8 +133,6 @@ const HeadContainer = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 1.5rem;
-  padding-right: 15px;
-  padding-left: 15px;
   padding-bottom: 1.5rem;
   background-color: var(--brand);
   color: var(--black);
