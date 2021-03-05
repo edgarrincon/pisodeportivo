@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "03c37fd9b296bf0466fa",
+  "hash": "6c1d76ff0cddf6566c06",
   "publicPath": "/static/",
-  "outputPath": "F:\\Users\\Edgar\\Documents\\Proyectos\\pisodeportivo\\build\\static",
+  "outputPath": "F:\\Users\\Edgar\\Documents\\Frontity\\pisodeportivo\\build\\static",
   "assetsByChunkName": {
     "Piso Deportivo": "Piso Deportivo.module.js",
     "list": "list.module.js"
@@ -12,7 +12,7 @@
   "assets": [
     {
       "name": "Piso Deportivo.module.js",
-      "size": 7091603,
+      "size": 7086880,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -20,12 +20,11 @@
         "Piso Deportivo"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     },
     {
       "name": "list.module.js",
-      "size": 131079,
+      "size": 124949,
       "chunks": [
         "list"
       ],
@@ -33,7 +32,7 @@
         "list"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -74,17 +73,17 @@
   "chunks": [
     {
       "id": "Piso Deportivo",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 2001641,
+      "size": 1998050,
       "names": [
         "Piso Deportivo"
       ],
       "files": [
         "Piso Deportivo.module.js"
       ],
-      "hash": "26055d59b08cb0417773",
+      "hash": "5cbb8759f0e5491b4cb5",
       "siblings": [],
       "parents": [],
       "children": [
@@ -97,17 +96,17 @@
     },
     {
       "id": "list",
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 99755,
+      "size": 93927,
       "names": [
         "list"
       ],
       "files": [
         "list.module.js"
       ],
-      "hash": "2814dd58766161786e7d",
+      "hash": "bd42bf95bdbbbb9ffd2c",
       "siblings": [],
       "parents": [
         "Piso Deportivo"
