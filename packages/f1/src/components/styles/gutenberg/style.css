@@ -1076,12 +1076,13 @@ h6.has-background {
 .wp-block-latest-posts__post-author {
   display: block;
   color: #6c7781;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .wp-block-latest-posts__post-excerpt {
   margin-top: 8px;
   margin-bottom: 16px;
+  letter-spacing: 1px;
 }
 
 .wp-block-latest-posts__featured-image img {
