@@ -46,12 +46,12 @@ const Title = styled.h1`
   margin: 0;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: rgba(12, 17, 43);
+  color: var(--white);
   font-size: 4em;
 `;
 
 const Description = styled.div`
   line-height: 1.6em;
-  color: rgba(12, 17, 43, 0.8);
+  color: var(--white);
   margin: 24px 0;
 `;

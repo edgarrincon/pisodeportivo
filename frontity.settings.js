@@ -2,7 +2,7 @@ const settings = {
   name: "Piso Deportivo",
   state: {
     frontity: {
-      url: "https://pisodeportivo.vercel.app",
+      url: "https://piso.vercel.app",
       title: "Piso Deportivo",
       description: "Opinión e Información",
     },

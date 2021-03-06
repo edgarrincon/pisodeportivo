@@ -78,7 +78,7 @@ const globalStyles = css`
     font-feature-settings: "kern";
     -webkit-font-smoothing: antialiased;
     min-height: -webkit-fill-available;
-    background-color: var(--black);
+    background-color: grey;
   }
   html {
     height: -webkit-fill-available;
