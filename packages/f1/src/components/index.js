@@ -85,6 +85,7 @@ const globalStyles = css`
   }
   a {
     color: var(--brand);
+    font-size: 22px;
   }
   a,
   a:visited {
@@ -102,8 +103,9 @@ const globalStyles = css`
     color: var(--white);
   }
   p {
-    line-height: 24px;
+    line-height: 28px;
     font-size: 18px;
+    letter-spacing: 1px;
   }
   // #root {
   //   display:flex;
