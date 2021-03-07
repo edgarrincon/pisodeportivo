@@ -18,6 +18,7 @@ const settings = {
             ["Opiniones", "/opinion"],
             ["Nosotros", "/nosotros"],
             ["Servicios", "/servicios"],
+            ["Contactos", "/contactos"],
           ],
           featured: {
             showOnList: true,
