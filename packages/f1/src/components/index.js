@@ -57,6 +57,9 @@ const Theme = ({ state }) => {
           <PageError when={data.isError} />
         </Switch>
       </Main>
+      <FooterContainer>
+        <Footer />
+      </FooterContainer>
     </>
   );
 };
@@ -137,7 +140,6 @@ const HeadContainer = styled.div`
   color: var(--black);
 `;
 const FooterContainer = styled.div`
-  width: 100%;
   background: var(--brand);
   // margin-top: auto;
 `;

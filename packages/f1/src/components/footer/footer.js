@@ -10,70 +10,37 @@ const Footer = ({ state }) => {
     <>
       <Container>
         <div className="row">
-          <div className="col-12 col-lg-6 footer-widget widget-one">
-            <h6 className="widget-title">About the company</h6>
-          </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
-            <h6 className="widget-title">Company</h6>
+          <div className="col-12 col-md-6 col-lg-2 footer-widget widget-three">
+            <h6 className="widget-title">Menu</h6>
             <ul className="widget-list">
               <li>
-                <Link className="widget-list-link" link="/about/">
-                  About us
+                <Link className="widget-list-link" link="/Home/">
+                  HomePage
                 </Link>
               </li>
               <li>
-                <Link className="widget-list-link" link="/services/">
-                  Services
+                <Link className="widget-list-link" link="/entrevistas/">
+                  Entrevistas
                 </Link>
               </li>
               <li>
-                <Link className="widget-list-link" link="/jobs/">
-                  Career
+                <Link className="widget-list-link" link="/opinion/">
+                  Opiniones
                 </Link>
               </li>
               <li>
-                <Link className="widget-list-link" link="/blog/">
-                  Blog
+                <Link className="widget-list-link" link="/nosotros/">
+                  Nosotros
                 </Link>
               </li>
               <li>
-                <Link className="widget-list-link" link="/contact/">
-                  Contact
+                <Link className="widget-list-link" link="/contactos/">
+                  Contactos
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
-            <h6 className="widget-title">Company</h6>
-            <ul className="widget-list">
-              <li>
-                <Link className="widget-list-link" link="/about/">
-                  About us
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/services/">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/jobs/">
-                  Career
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/blog/">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/contact/">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
+          <div className="col-12 col-md-6 col-lg-2 footer-widget widget-four">
             <h6 className="widget-title">Connect</h6>
             <ul className="widget-list">
               <li>
@@ -113,7 +80,7 @@ const Footer = ({ state }) => {
                   rel="nofollow noopener"
                   link="https://github.com/awsmin"
                 >
-                  Github
+                  YOUTUBE
                 </Link>
               </li>
             </ul>
@@ -128,16 +95,15 @@ const Footer = ({ state }) => {
 export default connect(Footer);
 
 const Container = styled.footer`
-  max-width: 1360px;
-  margin: 0 auto;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: var(--white);
   .footer-widget {
     margin-bottom: 1rem;
     .widget-title {
       color: var(--white);
-      margin-bottom: 1.2rem;
+      margin-bottom: 1rem;
     }
     p {
       font-size: 1rem;
