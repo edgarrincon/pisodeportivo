@@ -11,27 +11,10 @@ const Footer = ({ state }) => {
     <>
       <Container>
         <div className="footer-container">
-          <div className="footer-links">
-            <div className="footer-link-wrapper">
-              <div className="footer-link-items">
-                <h2>MENU</h2>
-                <Link link="/home/">HomePage</Link>
-                <Link link="/entrevistas">Entrevistas</Link>
-                <Link link="/opinion">Opiniones</Link>
-                <Link link="/nosotros">Nosotros</Link>
-                <Link link="/contactos">Contactos</Link>
-              </div>
-              <div className="footer-link-items">
-                <h2>Contact Us</h2>
-                <Link link="/contactos">Contact</Link>
-                <Link link="/nosotros">Support</Link>
-              </div>
-            </div>
-          </div>
           <section className="social-media">
             <div className="social-media-wrap">
               <div className="footer-logo">
-                <Link to="/" className="social-logo">
+                <Link link="/home/" className="social-logo">
                   <h2>Piso Deportivo</h2>
                 </Link>
               </div>
@@ -74,10 +57,21 @@ const Footer = ({ state }) => {
                   <FaTwitter />
                 </Link>
               </div>
+              <div className="footer-logo">
+                <Link
+                  link="https://www.instagram.com/awsmin/"
+                  className="social-logo"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >
+                  <spam>Desarrollado por </spam>
+
+                  <h4>Standards Apps</h4>
+                </Link>
+              </div>
             </div>
           </section>
         </div>
-        );
       </Container>
     </>
   );
@@ -94,91 +88,6 @@ const Container = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .footer-subscription {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 24px;
-    padding: 24px;
-    color: #fff;
-  }
-
-  .footer-subscription > p {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-
-  .footer-subscription-heading {
-    margin-bottom: 24px;
-    font-size: 24px;
-  }
-
-  .footer-subscription-text {
-    margin-bottom: 24px;
-    font-size: 20px;
-  }
-
-  .footer-input {
-    padding: 8px 24px;
-    border-radius: 2px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 16px;
-    border: 1px solid #fff;
-  }
-
-  .footer-links {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-link-wrapper {
-    display: flex;
-  }
-
-  .footer-link-items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
-    text-align: left;
-    width: 160px;
-    box-sizing: border-box;
-  }
-
-  .footer-link-items h2 {
-    margin-bottom: 16px;
-  }
-
-  .footer-link-items > h2 {
-    color: #fff;
-  }
-
-  .footer-link-items a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-  }
-
-  .footer-link-items a:hover {
-    color: #e9e9e9;
-    transition: 0.3s ease-out;
-  }
-
-  .footer-email-form h2 {
-    margin-bottom: 2rem;
-  }
-
-  .footer-input::placeholder {
-    color: #b1b1b1;
   }
 
   /* Social Icons */
@@ -198,7 +107,8 @@ const Container = styled.footer`
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 40px auto;
+    flex-direction: column;
   }
 
   .social-icons {
@@ -227,14 +137,6 @@ const Container = styled.footer`
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;
-    }
-
-    .footer-input {
-      width: 100%;
-    }
-
-    .btn {
-      width: 100%;
     }
 
     .footer-link-wrapper {
