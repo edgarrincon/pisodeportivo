@@ -80,7 +80,7 @@ export default connect(Footer);
 const Container = styled.footer`
   .footer-container {
     background-color: var (--brand);
-    padding: 4rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +132,7 @@ const Container = styled.footer`
   }
 
   .website-rights {
-    color: #fff;
+    color: #808080;
   }
 
   @media screen and (max-width: 820px) {
