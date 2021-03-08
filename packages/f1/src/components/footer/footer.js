@@ -25,7 +25,7 @@ const Footer = ({ state }) => {
                   aria-label="Facebook"
                   target="_blank"
                   rel="nofollow noopener"
-                  link="https://www.instagram.com/awsmin/"
+                  link="https://www.facebook.com/Piso-Deportivo-111498520397705/"
                 >
                   <FaFacebook />
                 </Link>
@@ -34,7 +34,7 @@ const Footer = ({ state }) => {
                   aria-label="Instagram"
                   target="_blank"
                   rel="nofollow noopener"
-                  link="https://www.instagram.com/awsmin/"
+                  link="https://www.instagram.com/pisodeportivo_/?hl=es-la"
                 >
                   <FaInstagram />
                 </Link>
@@ -42,7 +42,7 @@ const Footer = ({ state }) => {
                   className="social-icon-link"
                   target="_blank"
                   rel="nofollow noopener"
-                  link="https://www.instagram.com/awsmin/"
+                  link="https://www.youtube.com/channel/UCOgj5RLS1Hds1LAffhsA5_w"
                   aria-label="Youtube"
                 >
                   <FaYoutube />
@@ -51,22 +51,19 @@ const Footer = ({ state }) => {
                   className="social-icon-link"
                   target="_blank"
                   rel="nofollow noopener"
-                  link="https://www.instagram.com/awsmin/"
+                  link="https://twitter.com/pisodeportivo"
                   aria-label="Twitter"
                 >
                   <FaTwitter />
                 </Link>
               </div>
-              <div className="footer-dev">
+              <small className="website-rights">Desarrollado por:</small>
+              <div className="footer-logo">
                 <Link
-                  link="https://www.instagram.com/awsmin/"
+                  link="https://www.standardsapps.com/"
                   className="social-logo"
-                  target="_blank"
-                  rel="nofollow noopener"
                 >
-                  <p>Desarrollado por </p>
-
-                  <h4> Standards Apps</h4>
+                  <h4>Standards Apps</h4>
                 </Link>
               </div>
             </div>
@@ -94,14 +91,11 @@ const Container = styled.footer`
     display: flex;
   }
 
-  .footer-dev {
-    display: flex;
-  }
-
   /* Social Icons */
   .social-icon-link {
     color: var(--black);
     font-size: 50px;
+    margin-bottom: 16px;
   }
 
   .social-media {
@@ -123,7 +117,7 @@ const Container = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 280px;
   }
 
   .social-logo {
@@ -139,7 +133,6 @@ const Container = styled.footer`
 
   .website-rights {
     color: #fff;
-    margin-bottom: 16px;
   }
 
   @media screen and (max-width: 820px) {

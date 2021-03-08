@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "f6ae923f1972359804ca",
+  "hash": "12bc5a1cab77fcfa8b11",
   "publicPath": "/static/",
   "outputPath": "F:\\Users\\Edgar\\Documents\\Frontity\\pisodeportivo\\build\\static",
   "assetsByChunkName": {
@@ -12,7 +12,7 @@
   "assets": [
     {
       "name": "Piso Deportivo.module.js",
-      "size": 11102305,
+      "size": 11102174,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -77,14 +77,14 @@
       "rendered": false,
       "initial": true,
       "entry": true,
-      "size": 3322376,
+      "size": 3322310,
       "names": [
         "Piso Deportivo"
       ],
       "files": [
         "Piso Deportivo.module.js"
       ],
-      "hash": "f836796a0e3ef3f98664",
+      "hash": "696fee99d70330289c33",
       "siblings": [],
       "parents": [],
       "children": [
