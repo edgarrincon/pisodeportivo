@@ -57,16 +57,16 @@ const Footer = ({ state }) => {
                   <FaTwitter />
                 </Link>
               </div>
-              <div className="footer-logo">
+              <div className="footer-dev">
                 <Link
                   link="https://www.instagram.com/awsmin/"
                   className="social-logo"
                   target="_blank"
                   rel="nofollow noopener"
                 >
-                  <spam>Desarrollado por </spam>
+                  <p>Desarrollado por </p>
 
-                  <h4>Standards Apps</h4>
+                  <h4> Standards Apps</h4>
                 </Link>
               </div>
             </div>
@@ -90,10 +90,18 @@ const Container = styled.footer`
     align-items: center;
   }
 
+  .footer-logo {
+    display: flex;
+  }
+
+  .footer-dev {
+    display: flex;
+  }
+
   /* Social Icons */
   .social-icon-link {
-    color: #fff;
-    font-size: 24px;
+    color: var(--black);
+    font-size: 50px;
   }
 
   .social-media {
