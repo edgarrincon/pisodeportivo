@@ -1,6 +1,7 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 // simplest form (only email)
 
@@ -9,83 +10,74 @@ const Footer = ({ state }) => {
   return (
     <>
       <Container>
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-2 footer-widget widget-three">
-            <h6 className="widget-title">Menu</h6>
-            <ul className="widget-list">
-              <li>
-                <Link className="widget-list-link" link="/Home/">
-                  HomePage
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/entrevistas/">
-                  Entrevistas
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/opinion/">
-                  Opiniones
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/nosotros/">
-                  Nosotros
-                </Link>
-              </li>
-              <li>
-                <Link className="widget-list-link" link="/contactos/">
-                  Contactos
-                </Link>
-              </li>
-            </ul>
+        <div className="footer-container">
+          <div className="footer-links">
+            <div className="footer-link-wrapper">
+              <div className="footer-link-items">
+                <h2>MENU</h2>
+                <Link link="/home/">HomePage</Link>
+                <Link link="/entrevistas">Entrevistas</Link>
+                <Link link="/opinion">Opiniones</Link>
+                <Link link="/nosotros">Nosotros</Link>
+                <Link link="/contactos">Contactos</Link>
+              </div>
+              <div className="footer-link-items">
+                <h2>Contact Us</h2>
+                <Link link="/contactos">Contact</Link>
+                <Link link="/nosotros">Support</Link>
+              </div>
+            </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-2 footer-widget widget-four">
-            <h6 className="widget-title">Connect</h6>
-            <ul className="widget-list">
-              <li>
-                <Link
-                  className="widget-list-link"
-                  target="_blank"
-                  rel="nofollow noopener"
-                  link="https://www.facebook.com/awsminnovations"
-                >
-                  Facebook
+          <section className="social-media">
+            <div className="social-media-wrap">
+              <div className="footer-logo">
+                <Link to="/" className="social-logo">
+                  <h2>Piso Deportivo</h2>
                 </Link>
-              </li>
-              <li>
+              </div>
+              <small className="website-rights">© 2020</small>
+              <div className="social-icons">
                 <Link
-                  className="widget-list-link"
-                  target="_blank"
-                  rel="nofollow noopener"
-                  link="https://twitter.com/awsmin"
-                >
-                  Twitter
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="widget-list-link"
+                  className="social-icon-link"
+                  aria-label="Facebook"
                   target="_blank"
                   rel="nofollow noopener"
                   link="https://www.instagram.com/awsmin/"
                 >
-                  Instagram
+                  <FaFacebook />
                 </Link>
-              </li>
-              <li>
                 <Link
-                  className="widget-list-link"
+                  className="social-icon-link"
+                  aria-label="Instagram"
                   target="_blank"
                   rel="nofollow noopener"
-                  link="https://github.com/awsmin"
+                  link="https://www.instagram.com/awsmin/"
                 >
-                  YOUTUBE
+                  <FaInstagram />
                 </Link>
-              </li>
-            </ul>
-          </div>
+                <Link
+                  className="social-icon-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://www.instagram.com/awsmin/"
+                  aria-label="Youtube"
+                >
+                  <FaYoutube />
+                </Link>
+                <Link
+                  className="social-icon-link"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  link="https://www.instagram.com/awsmin/"
+                  aria-label="Twitter"
+                >
+                  <FaTwitter />
+                </Link>
+              </div>
+            </div>
+          </section>
         </div>
+        );
       </Container>
     </>
   );
@@ -95,33 +87,162 @@ const Footer = ({ state }) => {
 export default connect(Footer);
 
 const Container = styled.footer`
-  margin: auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  color: var(--white);
-  .footer-widget {
-    margin-bottom: 1rem;
-    .widget-title {
-      color: var(--white);
-      margin-bottom: 1rem;
+  .footer-container {
+    background-color: var (--brand);
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: #fff;
+  }
+
+  .footer-subscription > p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+
+  .footer-input {
+    padding: 8px 24px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+  }
+
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-link-wrapper {
+    display: flex;
+  }
+
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+  }
+
+  .footer-link-items h2 {
+    margin-bottom: 16px;
+  }
+
+  .footer-link-items > h2 {
+    color: #fff;
+  }
+
+  .footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-link-items a:hover {
+    color: #e9e9e9;
+    transition: 0.3s ease-out;
+  }
+
+  .footer-email-form h2 {
+    margin-bottom: 2rem;
+  }
+
+  .footer-input::placeholder {
+    color: #b1b1b1;
+  }
+
+  /* Social Icons */
+  .social-icon-link {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .social-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+
+  .social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .website-rights {
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
     }
-    p {
-      font-size: 1rem;
+
+    .footer-input {
+      width: 100%;
     }
-    .widget-list {
-      list-style: none;
-      padding-left: 0;
-      li {
-        margin-bottom: 0.5rem;
-        .widget-list-link {
-          text-decoration: none;
-          transition: all 0.3s ease;
-          color: var(--white);
-          &:hover {
-            color: var(--black);
-          }
-        }
-      }
+
+    .btn {
+      width: 100%;
+    }
+
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+
+    .social-media-wrap {
+      flex-direction: column;
     }
   }
 `;

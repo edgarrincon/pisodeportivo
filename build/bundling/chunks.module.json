@@ -2,20 +2,31 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "35456adc5de8e0fab51c",
+  "hash": "674d9497af05c197779f",
   "publicPath": "/static/",
   "outputPath": "F:\\Users\\Edgar\\Documents\\Frontity\\pisodeportivo\\build\\static",
   "assetsByChunkName": {
     "Piso Deportivo": [
       "Piso Deportivo.module.js",
-      "Piso Deportivo.ac57a8f9275c293e5b91.hot-update.js"
+      "Piso Deportivo.0d8b014ab55bcb0ba5c8.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "Piso Deportivo.ac57a8f9275c293e5b91.hot-update.js",
-      "size": 59694,
+      "name": "0d8b014ab55bcb0ba5c8.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Piso Deportivo.0d8b014ab55bcb0ba5c8.hot-update.js",
+      "size": 29705,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -30,7 +41,7 @@
     },
     {
       "name": "Piso Deportivo.module.js",
-      "size": 7204280,
+      "size": 11110616,
       "chunks": [
         "Piso Deportivo"
       ],
@@ -38,17 +49,6 @@
         "Piso Deportivo"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "ac57a8f9275c293e5b91.hot-update.json",
-      "size": 56,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -61,7 +61,7 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.ac57a8f9275c293e5b91.hot-update.js"
+        "Piso Deportivo.0d8b014ab55bcb0ba5c8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.ac57a8f9275c293e5b91.hot-update.js"
+        "Piso Deportivo.0d8b014ab55bcb0ba5c8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -107,15 +107,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 2033762,
+      "size": 3327683,
       "names": [
         "Piso Deportivo"
       ],
       "files": [
         "Piso Deportivo.module.js",
-        "Piso Deportivo.ac57a8f9275c293e5b91.hot-update.js"
+        "Piso Deportivo.0d8b014ab55bcb0ba5c8.hot-update.js"
       ],
-      "hash": "be1b45ced95ae3b0dcc4",
+      "hash": "ffffe921ef70b5cf653a",
       "siblings": [],
       "parents": [],
       "children": [
