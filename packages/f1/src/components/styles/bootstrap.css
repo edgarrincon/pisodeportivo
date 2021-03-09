@@ -330,11 +330,22 @@ h6 {
 }
 .h1,
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
+}
+@media screen and (max-width: 360px) {
+  .h1 {
+    font-size: 18px;
+  }
 }
 .h2,
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+@media (max-width: 576px) {
+  .h1 {
+    font-size: 2rem;
+  }
 }
 .h3,
 h3 {
