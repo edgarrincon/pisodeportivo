@@ -112,15 +112,6 @@ const globalStyles = css`
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  h1 {
-    font-size: 3.75rem;
-  }
-  @media screen and (max-width: 360px) {
-    .h1 {
-      font-size: 18px;
-    }
-  }
   // #root {
   //   display:flex;
   //   flex-direction: column;
