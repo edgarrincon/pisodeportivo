@@ -46,7 +46,7 @@ const Image = styled.div`
 const Title = styled.div`
   margin: 0;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 1rem;
   span {
     font-weight: 800;
   }
