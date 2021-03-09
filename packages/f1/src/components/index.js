@@ -108,7 +108,9 @@ const globalStyles = css`
   p {
     line-height: 28px;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   // #root {
   //   display:flex;
