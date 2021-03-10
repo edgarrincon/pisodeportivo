@@ -75,6 +75,7 @@ const ArticleContainer = styled.div`
 `;
 
 const Title = styled.h1`
+  margin-top: 1.2rem;
   margin-bottom: 1.2rem;
 `;
 
@@ -83,13 +84,13 @@ const StyledLink = styled(Link)`
 `;
 
 const Author = styled.p`
-  color: rgba(12, 17, 43, 0.9);
+  color: var(--brand);
   font-size: 0.9em;
   display: inline;
 `;
 
 const DateWrapper = styled.p`
-  color: rgba(12, 17, 43, 0.9);
+  color: var(--black);
   font-size: 0.9em;
   display: inline;
 `;
@@ -134,7 +135,7 @@ const Content = styled.div`
   blockquote {
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.1);
-    border-left: 4px solid rgba(12, 17, 43);
+    border-left: 4px solid var(--white);
     padding: 4px 16px;
   }
   .wp-block-embed {
