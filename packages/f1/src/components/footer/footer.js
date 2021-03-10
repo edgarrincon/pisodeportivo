@@ -14,7 +14,7 @@ const Footer = ({ state }) => {
           <section className="social-media">
             <div className="social-media-wrap">
               <div className="footer-logo">
-                <Link link="/home/" className="social-logo">
+                <Link link="/" className="social-logo">
                   <h2>Piso Deportivo</h2>
                 </Link>
               </div>
