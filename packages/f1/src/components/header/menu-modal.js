@@ -53,6 +53,8 @@ const MenuLink = styled(Link)`
   display: block;
   position: relative;
   z-index: 999;
+  border-bottom: solid 1px;
+  text-transform: uppercase;
   transition: all 0.3s ease 0s;
   &:hover,
   &:focus {
